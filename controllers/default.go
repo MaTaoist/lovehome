@@ -13,3 +13,12 @@ func (c *MainController) Get() {
 	c.Data["Email"] = "astaxie@gmail.com"
 	c.TplName = "index.tpl"
 }
+
+//
+//type UserController struct {
+//	beego.Controller
+//}
+//
+//func (c *UserController) Get() {
+//	c.Ctx.
+//}
